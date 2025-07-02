@@ -35,7 +35,7 @@ This repository contains code for augmenting, training, and analyzing heart-soun
 
 - **`models2d.py`**: Deep learning models for 2D spectrogram classification (e.g., 2D ResNet9).
 
-### 🎓 Training
+### Training
 
 - **`train_model.py`**: Core training script supporting both 1D and 2D models. Integrates augmentation, model selection, and evaluation.
 
@@ -62,6 +62,8 @@ This repository contains code for augmenting, training, and analyzing heart-soun
 - **`experiments_spectrograms.ipynb`**: Similar to above, but applied to spectrogram-based models.
 
 - **`results_final_full.ipynb`**: Aggregated results, visualizations, and analysis for the final submission or report.
+
+---
 
 ## Key extensions beyond the original PCGmix paper
 
