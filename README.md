@@ -47,21 +47,22 @@ A private dataset collected for:
 
 ## Models
 
-We used two main architectures for our final results and analysis:
+We used two main architectures for our final results and analysis
 
-Time-series models:
+### Time-series domain
 
 - **1D-CNN**: Based on the model from Potes et al. [CinC 2016](https://doi.org/10.22489/CinC.2016.182-399)
 - **1D-ResNet9**: A 1D variant of [ResNet](https://arxiv.org/abs/1512.03385), where all 2D layers are converted to their 1D counterparts.
 
-Spectrogram:
-- **2D-ResNet9**: 2D (original) [ResNet](https://arxiv.org/abs/1512.03385)
-
 Additional models are implemented in the scripts, most from the [tsai](https://github.com/timeseriesAI/tsai/tree/main/tsai/models) library.
+
+### Spectrogram domain
+
+- **2D-ResNet9**: 2D (original) [ResNet](https://arxiv.org/abs/1512.03385)
 
 ## Training Parameters
 
-Training was conducted with consistent hyperparameters across all experiments:
+Training was conducted with consistent hyperparameters across all experiments (except where the parameter was subject to analysis:
 
 - **Optimizer Scheduler**: One-Cycle-LR with `lr_max = 0.01`
 - **Batch Size**: `64`
