@@ -39,7 +39,11 @@ The list of recordings is also given in the file `PhysioNet_seed(data)=1100001_n
 
 ### UMC
 
-This is our propriatery dataset, collected for the study [Identification of decompensation episodes in chronic heart failure patients based solely on heart sounds](https://www.frontiersin.org/journals/cardiovascular-medicine/articles/10.3389/fcvm.2022.1009821/full). Raw data will be made available upon request.
+A private dataset collected for:
+
+[Identification of decompensation episodes in chronic heart failure patients based solely on heart sounds](https://www.frontiersin.org/articles/10.3389/fcvm.2022.1009821/full)
+
+**Raw data can be made available upon request.**
 
 ## Models
 
