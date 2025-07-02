@@ -1,4 +1,4 @@
-# PCGmix-EXTENDED: A Data-Augmentation Method for Heart-Sound Classification (Extended)
+# PCGmix: A Data-Augmentation Method for Heart-Sound Classification (EXTENDED)
 
 This repository extends the work presented in the original [PCGmix: A Data-Augmentation Method for Heart-Sound Classification](https://ieeexplore.ieee.org/document/10675426) paper by including additional experimental insights and analyses not covered in the original publication.
 
