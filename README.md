@@ -43,7 +43,7 @@ Below is a brief explanation of each key file:
 
 - **`augmentations2d.py`**: Contains analogous augmentations for 2D spectrogram representations of heart sounds.
 
-### Analysis & utilities
+### Utilities
 
 - **`utils.py`**: General utility functions used across scripts and notebooks (open files, create dirs, read results, etc.).
 
@@ -55,17 +55,17 @@ Below is a brief explanation of each key file:
 
 - **`read_experiments.py`**: Parses and organizes experiment logs and results for easy comparison and analysis/plotting.
 
-### Classical machine learning
-
-- **`classical.py`**, **`classical.ipynb`**: Utilities and experiments for evaluating classical ML models (e.g., Random Forests, SVMs) on both original and augmented datasets.
-
-### Notebooks
+### Analysis
 
 - **`experiments_timeseries.ipynb`**: Full experiments for training and evaluating time-series models with/without augmentation.
 
 - **`experiments_spectrograms.ipynb`**: Similar to above, but applied to spectrogram-based models.
 
 - **`results_final_full.ipynb`**: Aggregated results, visualizations, and analysis for the final submission or report.
+
+### Classical machine learning
+
+- **`classical.py`**, **`classical.ipynb`**: Utilities and experiments for evaluating classical ML models (e.g., Random Forests, SVMs) on both original and augmented datasets.
 
 ---
 
