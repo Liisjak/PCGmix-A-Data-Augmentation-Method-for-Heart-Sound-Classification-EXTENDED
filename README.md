@@ -20,8 +20,8 @@ Below is a brief explanation of each key file:
 ### Augmentation
 
 - **`augmentations.py`**: Implements data augmentation methods for time-series heart sound signals, including the core **PCGmix** strategy. Our methods are:
-  - `durratiomixup`: PCGmix
-  - `durmixmagwarp(0.2,4)`: PCGmix+
+  - PCGmix: `durratiomixup`
+  - PCGmix+: `durmixmagwarp(0.2,4)`
 
 - **`augmentations2d.py`**: Contains analogous augmentations for 2D spectrogram representations of heart sounds.
 
