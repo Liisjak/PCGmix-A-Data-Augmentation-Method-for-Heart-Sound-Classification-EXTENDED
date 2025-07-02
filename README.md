@@ -9,7 +9,11 @@ The original PCGmix introduced a novel data augmentation method tailored to **ph
 
 ## Repository Structure
 
-This repository contains code for augmenting, training, and analyzing heart-sound classification models using the PCGmix method. Below is a brief explanation of each key file:
+This repository contains code for augmenting, training, and analyzing heart-sound classification models using the PCGmix method.
+
+This repository uses `Python 3.8.16` with dependencies listed in `requirements.txt`.
+
+Below is a brief explanation of each key file:
 
 ---
 
