@@ -103,7 +103,7 @@ The list of recordings is also given in the file `PhysioNet_seed(data)=1100001_n
 
 A private dataset collected for:
 
-**[Identification of decompensation episodes in chronic heart failure patients based solely on heart sounds](https://www.frontiersin.org/articles/10.3389/fcvm.2022.1009821/full)**
+**[Identification of decompensation episodes in chronic heart failure patients based solely on heart sounds](https://www.frontiersin.org/articles/10.3389/fcvm.2022.1009821/full)**     
 *Published in Front. Cardiovasc. Med., 2022*
 
 **Raw data can be made available upon request.**
