@@ -7,13 +7,21 @@ This repository extends the work presented in the original paper:
 
 The original PCGmix introduced a novel data augmentation method tailored to **phonocardiogram (PCG)** signals for heart-sound classification. This extended version adds advanced interpretability and robustness analyses, enabling deeper insights into the method's generalization performance and behavior.
 
-## Key Extensions Beyond the Original PCGmix Paper
+## Key extensions beyond the original PCGmix paper
 
-This **EXTENDED** repository includes:
-- **Spectorgram analysis**: Methods are also evaluated in spectrogram domain
-- **Out-of-manifold intrusion analysis**: Evaluation of how generated data interacts with the true data manifold, including its effects on decision boundaries and generalization.
-- **Saliency-guided augmentation optimization**: Techniques to utilize saliency data for more effective augmentation and training strategies.
-- **Parameter analysis**: different mapping fuctions, $\alpha$ values for beta distribution and more.
+In addition to the core PCGmix method, this extended repository provides:
+
+- **Spectrogram-Based Evaluation**  
+  Additional experiments applying PCGmix in the spectrogram domain using 2D models.
+
+- **Out-of-Manifold Intrusion Analysis**  
+  Insight into how augmented data interacts with the real data manifold, affects decision boundaries, and contributes to generalization.
+
+- **Saliency-Guided Augmentation Optimization**  
+  Augmentation strategies informed by saliency maps to optimize where and how synthetic data is injected during training.
+
+- **Parameter Sensitivity and Mapping Functions**  
+  Includes experiments with varying beta distribution parameters (`α`) and different mixing functions to analyze augmentation efficacy.
 
 These additions are meant to enhance both the interpretability and robustness of heart-sound classification models using PCGmix.
 
