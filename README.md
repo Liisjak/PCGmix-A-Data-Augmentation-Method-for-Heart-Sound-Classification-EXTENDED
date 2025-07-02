@@ -106,6 +106,8 @@ A private dataset collected for:
 **[Identification of decompensation episodes in chronic heart failure patients based solely on heart sounds](https://www.frontiersin.org/articles/10.3389/fcvm.2022.1009821/full)**     
 *Published in Front. Cardiovasc. Med., 2022*
 
+The cross-validation folds follow from this study and are hardcoded in the `dataloader_umc.py` / `dataloader_umc2d.py`scripts.
+
 **Raw data can be made available upon request.**
 
 ## Models
