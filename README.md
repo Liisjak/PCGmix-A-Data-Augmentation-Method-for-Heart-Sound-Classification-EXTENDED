@@ -17,14 +17,6 @@ Below is a brief explanation of each key file:
 
 ---
 
-### Augmentation
-
-- **`augmentations.py`**: Implements data augmentation methods for time-series heart sound signals, including the core **PCGmix** strategy. Our methods are:
-  - PCGmix: `durratiomixup`
-  - PCGmix+: `durmixmagwarp(0.2,4)`
-
-- **`augmentations2d.py`**: Contains analogous augmentations for 2D spectrogram representations of heart sounds.
-
 ### Data Preparation
 
 - **`databuilder.ipynb`**: Preprocessing pipeline to convert raw PCG recordings and annotations into structured datasets suitable for training.
@@ -42,6 +34,14 @@ Below is a brief explanation of each key file:
 ### Training
 
 - **`train_model.py`**: Core training script supporting both 1D and 2D models. Integrates augmentation, model selection, and evaluation.
+
+### Augmentation
+
+- **`augmentations.py`**: Implements data augmentation methods for time-series heart sound signals, including the core **PCGmix** strategy. Our methods are:
+  - PCGmix: `durratiomixup`
+  - PCGmix+: `durmixmagwarp(0.2,4)`
+
+- **`augmentations2d.py`**: Contains analogous augmentations for 2D spectrogram representations of heart sounds.
 
 ### Analysis & utilities
 
