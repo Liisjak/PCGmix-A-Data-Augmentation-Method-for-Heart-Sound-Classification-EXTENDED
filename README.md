@@ -5,8 +5,7 @@ This repository extends the work presented in the original paper:
 **[PCGmix: A Data-Augmentation Method for Heart-Sound Classification](https://ieeexplore.ieee.org/document/10675426)**  
 *Published in IEEE JBHI, 2024*
 
-
-The core PCGmix method is a data augmentation strategy tailored for phonocardiogram (PCG) signals. This extended version includes advanced diagnostics and interpretability tools to better understand model behavior and data utilization.
+The original PCGmix introduced a novel data augmentation method tailored to **phonocardiogram (PCG)** signals for heart-sound classification. This extended version adds advanced interpretability and robustness analyses, enabling deeper insights into the method's generalization performance and behavior.
 
 ## Key Extensions Beyond the Original PCGmix Paper
 
