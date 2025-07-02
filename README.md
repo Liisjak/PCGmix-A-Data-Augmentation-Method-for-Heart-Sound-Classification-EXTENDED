@@ -11,26 +11,17 @@ The original PCGmix introduced a novel data augmentation method tailored to **ph
 
 In addition to the core PCGmix method, this extended repository provides:
 
-- **Spectrogram-Based Evaluation**  
-  Additional experiments applying PCGmix in the spectrogram domain using 2D models.
-
-- **Out-of-Manifold Intrusion Analysis**  
-  Insight into how augmented data interacts with the real data manifold, affects decision boundaries, and contributes to generalization.
-
-- **Saliency-Guided Augmentation Optimization**  
-  Augmentation strategies informed by saliency maps to optimize where and how synthetic data is injected during training.
-
-- **Parameter Sensitivity and Mapping Functions**  
-  Includes experiments with varying beta distribution parameters (`α`) and different mixing functions to analyze augmentation efficacy.
-
-These additions are meant to enhance both the interpretability and robustness of heart-sound classification models using PCGmix.
+- **Spectorgram-based analysis**: Methods are also evaluated in spectrogram domain
+- **Out-of-manifold intrusion analysis**: Evaluation of how generated data interacts with the true data manifold, including its effects on decision boundaries and generalization.
+- **Saliency-guided augmentation optimization**: Techniques to utilize saliency data for more effective augmentation and training strategies.
+- **Parameter analysis**: different mapping fuctions, different `α` values for beta distribution and more.
 
 ## Dataset
 
 ### PhysioNET
 
-The PhysioNet/CinC Challenge 2016 database can be accessed [here](https://archive.physionet.org/pn3/challenge/2016/).  
-Heartbeat segmentation (Springer's algorithm and hand-corrected annotations) is available [here](https://physionet.org/content/challenge-2016/1.0.0/#files-panel).
+- Raw data: [PhysioNet Challenge 2016](https://archive.physionet.org/pn3/challenge/2016/)
+- Segmentation files (Springer + hand-corrected): [Link](https://physionet.org/content/challenge-2016/1.0.0/#files-panel)
 
 #### Test Data
 
