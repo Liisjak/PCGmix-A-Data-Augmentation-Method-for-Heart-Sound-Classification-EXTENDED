@@ -117,7 +117,7 @@ We used two main architectures for our final results and analysis
 - **1D-CNN**: Based on the model from Potes et al. [CinC 2016](https://doi.org/10.22489/CinC.2016.182-399)
 - **1D-ResNet9**: A 1D variant of [ResNet](https://arxiv.org/abs/1512.03385), where all 2D layers are converted to their 1D counterparts.
 
-Additional models are implemented in the scripts, most from the [tsai](https://github.com/timeseriesAI/tsai/tree/main/tsai/models) library.
+Additional models are implemented in the scripts, most of which are from the [tsai](https://github.com/timeseriesAI/tsai/tree/main/tsai/models) library.
 
 ### Spectrogram domain
 
