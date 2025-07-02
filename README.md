@@ -63,8 +63,8 @@ Training was conducted with consistent hyperparameters across all experiments:
 
 ## How to cite
 
-If you use our method, please cite as:
-`
+If you use PCGmix or this extended version in your research, please cite the original work:
+```bibtex
 @article{10675426,
   author={Susič, David and Gradišek, Anton and Gams, Matjaž},
   journal={IEEE Journal of Biomedical and Health Informatics}, 
@@ -75,4 +75,4 @@ If you use our method, please cite as:
   pages={6874-6885},
   keywords={Heart;Feature extraction;Phonocardiography;Spectrogram;Data models;Heart beat;Data augmentation;Data augmentation;phonocardiogram;heart sounds;abnormal heart-sound detection;deep learning;neural networks;machine learning},
   doi={10.1109/JBHI.2024.3458430}}
-`
+```
