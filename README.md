@@ -7,6 +7,62 @@ This repository extends the work presented in the original paper:
 
 The original PCGmix introduced a novel data augmentation method tailored to **phonocardiogram (PCG)** signals for heart-sound classification. This extended version adds advanced interpretability and robustness analyses, enabling deeper insights into the method's generalization performance and behavior.
 
+## Repository Structure
+
+This repository contains code for augmenting, training, and analyzing heart-sound classification models using the PCGmix method. Below is a brief explanation of each key file:
+
+---
+
+### Augmentation
+
+- **`augmentations.py`**  
+  Implements data augmentation methods for time-series heart sound signals, including the core **PCGmix** strategy.  
+  *See also*: `experiments_timeseries.ipynb`
+
+- **`augmentations2d.py`**: Contains analogous augmentations for 2D spectrogram representations of heart sounds.
+
+### Data Preparation
+
+- **`databuilder.ipynb`**: Preprocessing pipeline to convert raw PCG recordings and annotations into structured datasets suitable for training.
+
+- **`dataloader_physionet.py`** / **`dataloader_umc.py`**: DataLoader implementations for **time-series** data from the PhysioNet and UMC datasets, respectively.
+
+- **`dataloader_physionet2d.py`** / **`dataloader_umc2d.py`**: DataLoaders for loading **spectrogram** versions of the PhysioNet and UMC datasets.
+
+### Modeling
+
+- **`models.py`**: Deep learning models for 1D time-series classification, including variants of CNNs and ResNet architectures.
+
+- **`models2d.py`**: Deep learning models for 2D spectrogram classification (e.g., 2D ResNet9).
+
+### 🎓 Training
+
+- **`train_model.py`**: Core training script supporting both 1D and 2D models. Integrates augmentation, model selection, and evaluation.
+
+### Analysis & utilities
+
+- **`utils.py`**: General utility functions used across scripts and notebooks (open files, create dirs, read results, etc.).
+
+- **`plotters.py`**: Tools to visualize model training progress (loss, accuracy) and other visualizations.
+
+- **`latent_space.py`**: Extracts the learned latent spaces of models, useful for studying out-of-manifold intrusion and generalization.
+
+- **`saliency.py`**: Implements saliency information computation for saliency-guided augmentation.
+
+- **`read_experiments.py`**: Parses and organizes experiment logs and results for easy comparison and analysis/plotting.
+
+### Classical machine learning
+
+- **`classical.py`**, **`classical.ipynb`**: Utilities and experiments for evaluating classical ML models (e.g., Random Forests, SVMs) on both original and augmented datasets.
+
+### Notebooks
+
+- **`experiments_timeseries.ipynb`**: Full experiments for training and evaluating time-series models with/without augmentation.
+
+- **`experiments_spectrograms.ipynb`**: Similar to above, but applied to spectrogram-based models.
+
+- **`results_final_full.ipynb`**: Aggregated results, visualizations, and analysis for the final submission or report.
+
 ## Key extensions beyond the original PCGmix paper
 
 In addition to the core PCGmix method, this extended repository provides:
